@@ -10,6 +10,7 @@
     let app = express()
     
     app.post('/webhook', line.middleware(lineAccount), function (req, res) {
+        console.log('start')
         let promise = []
         for (let event in req.body.events) {
             promise.push(lineEvent(event))
