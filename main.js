@@ -1,10 +1,9 @@
 
-{
 
     let express = require('express')
     let line = require('@line/bot-sdk')
     
-    let lineAccount = require("./lineKey.json")
+    let lineAccount = require("./linekey.json")
     let client = new line.Client(lineAccount)
     
     let app = express()
@@ -78,4 +77,3 @@
       console.log('listening on ' + port)
     })
 
-}
