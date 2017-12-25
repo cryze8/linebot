@@ -56,7 +56,8 @@
                     {
                         let response='Hi'
                         reply(event, response).then(function () {
-                            resolve()
+                            resolve(
+                                
                         }).catch(function () {
                             reject()
                         })    
