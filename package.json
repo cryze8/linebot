@@ -1,6 +1,6 @@
 {
     "name": "line_bot",
-    "scaripts": {
+    "scripts": {
         "start": "node main.js"
     },
     "dependencies": {
